@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\bin\Debug\STUDENT INFO.exe.config
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\bin\Debug\STUDENT INFO.exe
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\bin\Debug\STUDENT INFO.pdb
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT_INFO.Form1.resources
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT_INFO.Properties.Resources.resources
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.exe
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.pdb
+C:\Users\HP\source\repos\c#\STUDENT INFO\STUDENT INFO\obj\Debug\STUDENT INFO.exe.config
