@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\bin\Debug\ASSIGMENT.exe.config
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\bin\Debug\ASSIGMENT.exe
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\bin\Debug\ASSIGMENT.pdb
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.Form1.resources
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.Properties.Resources.resources
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.exe
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.pdb
+C:\Users\HP\source\repos\c#\ASSIGMENT\ASSIGMENT\obj\Debug\ASSIGMENT.exe.config
