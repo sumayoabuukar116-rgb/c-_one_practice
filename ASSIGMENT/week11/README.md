@@ -37,7 +37,7 @@ The `dateOutputLabel` is a Label control on `Form1` used to display the final da
 The input fields and the output label are cleared by setting their `Text` property to an empty string or by using the `Clear()` method.
 
 
-This allows the user to remove the previous input and output from the form.
+This allows the user to remove the previous input and output from the form
 
 ![Clearing Input Fields](Screenshots/clear.png)
 
