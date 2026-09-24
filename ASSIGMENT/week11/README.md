@@ -1,6 +1,7 @@
 ### 1. Creating Variables
 
 The following string variables are created to store the date information entered by the user.
+
 ![Creating Variables](Screenshots/creating_variable.png.png)
 
 ### 2. Assigning Variables
