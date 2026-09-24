@@ -18,12 +18,12 @@ The `+` operator is used to combine the values of the date variables into one co
 
 The `FullDate` variable is assigned to the `Text` property of the `dateOutputLabel`. This displays the formatted date on the form.
 The `dateOutputLabel` is a Label control on `Form1` used to display the final date.
-![Displaying Result](Screenshots/output.png.png)
+![Displaying ](Screenshots/output.png.png)
 
 
 ### 5. Clearing the Input Fields
 
 The input fields and the output label are cleared by setting their `Text` property to an empty string or by using the `Clear()` method.
 This allows the user to remove the previous input and output from the form
-![Clearing Input Fields](Screenshots/clear.png.png)
+![Clearing ](Screenshots/clear.png.png)
 
