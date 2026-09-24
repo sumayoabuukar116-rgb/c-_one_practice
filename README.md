@@ -1,205 +1,128 @@
-# c#_one_practice
 c# programming language 
-# C# Student Information
+# C# Programming I
+## Course Information
 
-## Project Description
-
-This project is a simple **C# Windows Forms application** that collects student information from different TextBoxes and displays the information in a Label.
-
-The project demonstrates how to use:
-
-* Variables
-* TextBoxes
-* Labels
-* Parse method
-* String concatenation
-* Button click events
-* User input
-
----
-
-## Technologies Used
-
-* **C#**
-* **Windows Forms**
-* **Visual Studio**
+| Item | Details |
+| :--- | :--- |
+| **Course Title** | C# Programming I |
+| **Course Code** | CA221 |
+| **Department** | Computer Application |
+| **Faculty** | Computer & Information Technology |
+| **University** | Jamhuriya University of Science & Technology |
+| **Academic Year** | 2026 |
+| **Semester** | IV |
+| **Prerequisite** | Introduction Programming |
+| **Course Coordinator** | Yahye Ali Isse |
 
 ---
+## Course Description
+Write a short description of the course here.
+---
+## Course Objectives
+By the end of this course, students should be able to:
+* Understand the fundamentals of C# programming.
+* Apply programming logic and problem-solving techniques.
+* Understand event-driven programming.
+* Develop graphical user interface applications.
+* Work with methods, arrays, lists, and files.
+* Connect C# applications with databases.
+* Develop desktop applications.
+---
+## Course Content
 
-## Student Information
-
-The application collects the following student information:
-
-* Student ID
-* Student Name
-* Department
-* Age
-* Gender
-
-The user enters the information into the TextBoxes and clicks the button to display the result.
+| Week | Topic | Chapter |
+| :--- | :--- | :--- |
+| Week 1 | Introduction to Visual C# | Chapter 1 |
+| Week 2 | Processing Data | Chapter 2 |
+| Week 3 | Making Decisions | Chapter 3 |
+| Weeks 4–5 | Loops, Files, and Random Numbers | Chapter 4 |
+| Weeks 6–7 | Modularizing Your Code with Methods | Chapter 5 |
+| Weeks 8–9 | Arrays and Lists | Chapter 6 |
+| Weeks 10–11 | ADO.NET | Chapter 7 |
+| Week 12 | Sample Project |  |
+| Weeks 13–14 | Build Desktop Application | Chapter 8 |
 
 ---
-
-## 1. Creating Variables
-
-Variables are created to store the information entered by the user.
-
-```csharp
-int studentId;
-string studentName;
-string department;
-int age;
-string gender;
-```
-
-The variables store different types of information.
-
-![Creating Variables](Screenshots/creatingvariable.png.png)
+## Learning Outcomes
+After completing the course, students should be able to:
+1. Understand Windows and event-driven programming.
+2. Develop GUI applications.
+3. Apply programming logic when solving problems.
+4. Use C# programming structures correctly.
+5. Use methods to organize programs.
+6. Work with arrays and lists.
+7. Connect applications to databases using ADO.NET.
+8. Develop small- to medium-sized Windows applications.
+---
+## Course Materials
+### Lectures
+* Lecture 01 - Introduction to Visual C#
+* Lecture 02 - Processing Data
+* Lecture 03 - Making Decisions
+* Lecture 04 - Loops
+* Lecture 05 - Files and Random Numbers
+* Lecture 06 - Methods
+* Lecture 07 - Arrays and Lists
+* Lecture 08 - ADO.NET
+* Lecture 09 - Desktop Application Development
 
 ---
+## Assessment
 
-## 2. Assigning Values
-
-The values entered into the TextBoxes are assigned to the variables.
-
-For the **Student ID**, the `Parse` method is used to convert the TextBox value from a string into an integer.
-
-```csharp
-studentId = int.Parse(txtStudentID.Text);
-studentName = txtStudentName.Text;
-department = txtDepartment.Text;
-age = int.Parse(txtAge.Text);
-gender = txtGender.Text;
-```
-
-The `int.Parse()` method is important because TextBox values are stored as strings.
-
-![Assigning Values](Screenshots/Assign_variable.png)
+| Assessment | Weight |
+| :--- | :--- |
+| Midterm Exam | 30% |
+| Labs and Home Assignments | 15% |
+| Final Exam | 30% |
+| Labs and Home Assignments | 10% |
+| Project | 15% |
+| **Total** | **100%** |
 
 ---
-
-## 3. Parse Method
-
-The `Parse` method is used to convert a string value into another data type.
-
-For example:
-
-```csharp
-studentId = int.Parse(txtStudentID.Text);
-```
-
-Here:
-
-* `txtStudentID.Text` gets the value entered by the user.
-* `int.Parse()` converts the value from a string to an integer.
-* `studentId` stores the converted integer value.
-
-This allows the program to work with the Student ID as an integer.
-
+## Course Project
+Students will develop a desktop application at the end of the semester.
+The project should demonstrate concepts learned during the course, including:
+* User interface design
+* Variables and data types
+* Decision structures
+* Loops
+* Methods
+* Arrays or lists
+* Database connectivity
+* ADO.NET
+* Desktop application development
 ---
-
-## 4. Concatenation
-
-The `+` operator is used to combine different pieces of information into one string.
-
-Example:
-
-```csharp
-lblResult.Text = "Student ID: " + studentId +
-                 "\nName: " + studentName +
-                 "\nDepartment: " + department +
-                 "\nAge: " + age +
-                 "\nGender: " + gender;
-```
-
-The `+` operator combines the labels and values into one output.
-
-![Concatenation](Screenshots/Concatenation.png)
-
+## Software Requirements
+* Visual Studio
+* C#
+* .NET
+* Windows Forms
+* Database Management System
 ---
-
-## 5. Button Click Event
-
-When the user clicks the button, the program reads the information from the TextBoxes, stores the values in variables, and displays the result in the Label.
-
-Example:
-
-```csharp
-private void btnDisplay_Click(object sender, EventArgs e)
-{
-    int studentId;
-    string studentName;
-    string department;
-    int age;
-    string gender;
-
-    studentId = int.Parse(txtStudentID.Text);
-    studentName = txtStudentName.Text;
-    department = txtDepartment.Text;
-    age = int.Parse(txtAge.Text);
-    gender = txtGender.Text;
-
-    lblResult.Text = "Student ID: " + studentId +
-                     "\nName: " + studentName +
-                     "\nDepartment: " + department +
-                     "\nAge: " + age +
-                     "\nGender: " + gender;
-}
-```
-
+## Textbook
+**Starting Out With Visual C#**
+* **Author:** Tony Gaddis
+* **Publisher:** Pearson
+* **Edition:** Sixth Edition
+* **Year:** 2023
 ---
-
-## 6. Program Output
-
-After entering the student's information and clicking the button, the information is displayed in the Label.
-
-Example:
-
-```text
-Student ID: 12345
-Name: Sumayo
-Department: Information Technology
-Age: 20
-Gender: Female
-```
-
-![Program Output](Screenshots/output.png)
-
+## Reference Book
+**Starting Out With Visual C#**
+* **Authors:** Tony Gaddis and Kip Irvine
+* **Publisher:** Pearson
+* **Edition:** Fourth Edition
+* **Year:** 2017
 ---
-
-## 7. How the Program Works
-
-The program follows these steps:
-
-1. The user enters the Student ID.
-2. The user enters the student's name.
-3. The user enters the department.
-4. The user enters the student's age.
-5. The user enters the gender.
-6. The program reads the values from the TextBoxes.
-7. `int.Parse()` converts numeric values into integers.
-8. The values are stored in variables.
-9. The `+` operator combines the information.
-10. The final information is displayed in the Label.
-
+## Teaching and Learning Methods
+* Lectures
+* Laboratory sessions
+* Practical exercises
+* Assignments
+* Individual practice
+* Project-based learning
 ---
-
-## 8. What I Learned
-
-Through this assignment, I learned how to:
-
-* Create variables in C#
-* Get input from TextBoxes
-* Convert strings into integers using `Parse`
-* Assign values to variables
-* Use string concatenation
-* Handle button click events
-* Display information using a Label
-* Create a simple Windows Forms application
-
-
----
-
-## Conclusion
-
-This project demonstrates the basic concepts of C# programming by creating a simple Student Information application. It shows how user input can be collected, converted, stored in variables, combined using concatenation, and displayed as output.
+## Instructor / Coordinator
+**Yahye Ali Isse**
+Department of Computer Application
+Faculty of Computer & Information Technology
+Jamhuriya University of Science & Technology
