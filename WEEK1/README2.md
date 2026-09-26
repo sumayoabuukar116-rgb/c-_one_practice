@@ -1,12 +1,12 @@
-Chapter 1 — C# Code and Explanations
+# Chapter 1 — C# Code and Explanations
 
+## 1. Form1 Constructor
 
-1. Form1 Constructor
-
-Purpose
+### Purpose
 
 The constructor initializes the Form when the program starts.
 
+```csharp
 namespace hello_world
 {
     public partial class Form1 : Form
@@ -17,275 +17,299 @@ namespace hello_world
         }
     }
 }
+```
 
-Explanation
+### Explanation
 
-- "namespace hello_world": Defines the namespace name.
-- "public partial class Form1 : Form": Defines the "Form1" class.
-- "public Form1()": This is the constructor.
-- "InitializeComponent();": Initializes the Form and its controls.
+* `namespace hello_world`: Defines the namespace name.
+* `public partial class Form1 : Form`: Defines the `Form1` class.
+* `public Form1()`: This is the constructor.
+* `InitializeComponent();`: Initializes the Form and its controls.
 
-How It Works
+### How It Works
 
-When the program starts, the constructor runs and "InitializeComponent();" prepares the Form and its controls.
+When the program starts, the constructor runs and `InitializeComponent();` prepares the Form and its controls.
 
-Screenshot
+### Screenshot
 
-"Form1 Constructor" (Screenshots/form1_constructor.png)
+![Form1 Constructor](Screenshots/form1_constructor.png)
 
 ---
 
-2. MessageBox — Displaying a Message
+## 2. MessageBox — Displaying a Message
 
-Purpose
+### Purpose
 
 To display a message when a Button is clicked.
 
+```csharp
 private void myButton_Click(object sender, EventArgs e)
 {
     MessageBox.Show("Thanks for clicking the button!");
 }
+```
 
-Explanation
+### Explanation
 
-- "private void": Defines a method that does not return a value.
-- "myButton_Click": The event handler name.
-- "object sender": Identifies the object that caused the event.
-- "EventArgs e": Contains event information.
-- "MessageBox.Show()": Displays a message.
-- ""Thanks for clicking the button!"": The message displayed.
+* `private void`: Defines a method that does not return a value.
+* `myButton_Click`: The event handler name.
+* `object sender`: Identifies the object that caused the event.
+* `EventArgs e`: Contains event information.
+* `MessageBox.Show()`: Displays a message.
+* `"Thanks for clicking the button!"`: The message displayed.
 
-How It Works
+### How It Works
 
 The user clicks the Button, the event handler runs, and a message appears.
 
-Screenshot
+### Screenshot
 
-"MessageBox" (Screenshots/messagebox.png)
+![MessageBox](Screenshots/messagebox.png)
 
 ---
 
-3. Hello World
+## 3. Hello World
 
-Purpose
+### Purpose
 
-To display Hello World when a Button is clicked.
+To display **Hello World** when a Button is clicked.
 
+```csharp
 private void messageButton_Click(object sender, EventArgs e)
 {
     MessageBox.Show("Hello World");
 }
+```
 
-Explanation
+### Explanation
 
-- "messageButton_Click": Handles the Button click event.
-- "MessageBox.Show()": Displays a message.
-- ""Hello World"": The text displayed.
+* `messageButton_Click`: Handles the Button click event.
+* `MessageBox.Show()`: Displays a message.
+* `"Hello World"`: The text displayed.
 
-Output
+### Output
 
 A message box displays:
 
-Hello World
+**Hello World**
 
-Screenshot
+### Screenshot
 
-"Hello World" (Screenshots/hello_world.png)
+![Hello World](Screenshots/hello_world.png)
 
 ---
 
-4. Label — Displaying Text
+## 4. Label — Displaying Text
 
-Purpose
+### Purpose
 
 To display text in a Label.
 
+```csharp
 answerLabel.Text = "Hello World";
+```
 
-Explanation
+### Explanation
 
-- "answerLabel": The Label's name.
-- ".Text": The text displayed in the Label.
-- "=": The assignment operator.
-- ""Hello World"": The text assigned to the Label.
-- ";": Ends the statement.
+* `answerLabel`: The Label's name.
+* `.Text`: The text displayed in the Label.
+* `=`: The assignment operator.
+* `"Hello World"`: The text assigned to the Label.
+* `;`: Ends the statement.
 
-Output
+### Output
 
 The Label displays:
 
-Hello World
+**Hello World**
 
-Screenshot
+### Screenshot
 
-"Label Display" (Screenshots/label_display.png)
+![Label Display](Screenshots/label_display.png)
 
 ---
 
-5. Clearing a Label
+## 5. Clearing a Label
 
-Purpose
+### Purpose
 
 To clear the text displayed in a Label.
 
+```csharp
 answerLabel.Text = "";
+```
 
-Explanation
+### Explanation
 
-- "answerLabel": The Label's name.
-- ".Text": The Label's Text property.
-- """": An empty string.
+* `answerLabel`: The Label's name.
+* `.Text`: The Label's Text property.
+* `""`: An empty string.
 
-Output
+### Output
 
 The Label becomes empty.
 
-Screenshot
+### Screenshot
 
-"Clear Label" (Screenshots/clear_label.png)
+![Clear Label](Screenshots/clear_label.png)
 
 ---
 
-6. PictureBox — Showing and Hiding Images
+## 6. PictureBox — Showing and Hiding Images
 
-Purpose
+### Purpose
 
 To show one image and hide another image.
 
+```csharp
 cardBackPictureBox.Visible = true;
 cardFacePictureBox.Visible = false;
+```
 
-Explanation
+### Explanation
 
-- "cardBackPictureBox": The PictureBox for the back image.
-- "Visible = true": Makes the image visible.
-- "cardFacePictureBox": The PictureBox for the front image.
-- "Visible = false": Hides the image.
+* `cardBackPictureBox`: The PictureBox for the back image.
+* `Visible = true`: Makes the image visible.
+* `cardFacePictureBox`: The PictureBox for the front image.
+* `Visible = false`: Hides the image.
 
-Output
+### Output
 
 The back image appears, and the front image is hidden.
 
-Screenshot
+### Screenshot
 
-"PictureBox Visible" (Screenshots/picturebox.png)
+![PictureBox Visible](Screenshots/picturebox.png)
 
 ---
 
-7. Closing a Form
+## 7. Closing a Form
 
-Purpose
+### Purpose
 
 To close the current Form.
 
+```csharp
 this.Close();
+```
 
-Explanation
+### Explanation
 
-- "this": Refers to the current Form.
-- "Close()": Closes the Form.
-- ";": Ends the statement.
+* `this`: Refers to the current Form.
+* `Close()`: Closes the Form.
+* `;`: Ends the statement.
 
-Output
+### Output
 
 The current Form closes.
 
-Screenshot
+### Screenshot
 
-"Close Form" (Screenshots/close_form.png)
+![Close Form](Screenshots/close_form.png)
 
 ---
 
-8. Closing the Entire Application
+## 8. Closing the Entire Application
 
-Purpose
+### Purpose
 
 To close the application.
 
+```csharp
 Application.Exit();
+```
 
-Explanation
+### Explanation
 
-- "Application": Refers to the application.
-- "Exit()": Requests the application to close.
-- ";": Ends the statement.
+* `Application`: Refers to the application.
+* `Exit()`: Requests the application to close.
+* `;`: Ends the statement.
 
-Output
+### Output
 
 The application closes.
 
-Difference Between "this.Close()" and "Application.Exit()"
+### Difference Between `this.Close()` and `Application.Exit()`
 
-Code| Purpose
-"this.Close();"| Closes the current Form
-"Application.Exit();"| Closes the entire application
+| Code                  | Purpose                       |
+| --------------------- | ----------------------------- |
+| `this.Close();`       | Closes the current Form       |
+| `Application.Exit();` | Closes the entire application |
 
 ---
 
-9. Single-Line Comment
+## 9. Single-Line Comment
 
-Purpose
+### Purpose
 
 To add a note inside the code.
 
+```csharp
 // This is a comment.
+```
 
-Explanation
+### Explanation
 
-- "//" starts a single-line comment.
-- The comment is not executed as program code.
-- Comments help programmers understand the code.
+* `//` starts a single-line comment.
+* The comment is not executed as program code.
+* Comments help programmers understand the code.
 
-Screenshot
+### Screenshot
 
-"Single Line Comment" (Screenshots/single_line_comment.png)
+![Single Line Comment](Screenshots/single_line_comment.png)
 
 ---
 
-10. Multi-Line Comment
+## 10. Multi-Line Comment
 
-Purpose
+### Purpose
 
 To write a comment on multiple lines.
 
+```csharp
 /*
 This is a comment.
 It has multiple lines.
 */
+```
 
-Explanation
+### Explanation
 
-- "/*" starts the comment.
-- "*/" ends the comment.
-- The text inside the comment is not executed.
+* `/*` starts the comment.
+* `*/` ends the comment.
+* The text inside the comment is not executed.
 
-Screenshot
+### Screenshot
 
-"Multi Line Comment" (Screenshots/multi_line_comment.png)
+![Multi Line Comment](Screenshots/multi_line_comment.png)
 
 ---
 
-11. Syntax Error Example
+## 11. Syntax Error Example
 
-Correct Code
+### Correct Code
 
+```csharp
 MessageBox.Show("Hello World");
+```
 
-Incorrect Code
+### Incorrect Code
 
+```csharp
 MessageBox.Show("Hello World"
+```
 
-Explanation
+### Explanation
 
 The incorrect code is missing:
 
-- A closing parenthesis ")"
-- A semicolon ";"
+* A closing parenthesis `)`
+* A semicolon `;`
 
-A Syntax Error is a mistake in the way code is written. Visual Studio helps identify these errors.
+A **Syntax Error** is a mistake in the way code is written. Visual Studio helps identify these errors.
 
-Screenshot
+### Screenshot
 
-"Syntax Error" (Screenshots/syntax_error.png)
+![Syntax Error](Screenshots/syntax_error.png)
 
----
+
