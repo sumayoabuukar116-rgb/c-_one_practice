@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CLASSASSIGMENT")]
+[assembly: AssemblyTitle("Electricity Bill Calculator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CLASSASSIGMENT")]
+[assembly: AssemblyProduct("Electricity Bill Calculator")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a1680aa1-1f10-4cc5-a6ca-c1477912bb45")]
+[assembly: Guid("a019d858-e637-4218-9746-99a72c4d1b88")]
 
 // Version information for an assembly consists of the following four values:
 //

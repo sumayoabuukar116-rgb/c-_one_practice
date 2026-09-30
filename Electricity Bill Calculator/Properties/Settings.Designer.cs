@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CLASSASSIGMENT.Properties
+namespace Electricity_Bill_Calculator.Properties
 {
 
 
