@@ -18,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\c#\\Electricity Bill Calculator\\Electricity Bill Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Electricity Bill Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\c#\\Electricity Bill Calculator\\Electricity Bill Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "Electricity Bill Calculator\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:06:13.915Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
@@ -36,18 +48,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T16:46:55.033Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\c#\\Electricity Bill Calculator\\Electricity Bill Calculator\\Form1.cs",
-              "RelativeDocumentMoniker": "Electricity Bill Calculator\\Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\c#\\Electricity Bill Calculator\\Electricity Bill Calculator\\Form1.cs [Design]",
-              "RelativeToolTip": "Electricity Bill Calculator\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T16:06:13.915Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
