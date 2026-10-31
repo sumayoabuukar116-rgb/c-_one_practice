@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\bin\Debug\FILE HANDLING1.exe.config
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\bin\Debug\FILE HANDLING1.exe
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\bin\Debug\FILE HANDLING1.pdb
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE_HANDLING1.Form1.resources
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE_HANDLING1.Properties.Resources.resources
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.exe
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.pdb
+C:\Users\HP\source\repos\c#\FILE HANDLING1\FILE HANDLING1\obj\Debug\FILE HANDLING1.exe.config
