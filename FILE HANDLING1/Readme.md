@@ -81,6 +81,7 @@ Deletes all items from the ListBox.
 
 C. Comparison of Delete Functions
 
+
 Teacher's Functions| My Functions
 Not specified in the notes| RemoveAt()
 Not specified in the notes| Clear()
