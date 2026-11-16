@@ -16,7 +16,9 @@ The `Text` property stores user input as a string.
 
 ```csharp
 textBox1.Text = "Hello";
+
 ```
+![Text Property](screenshots/Text%20Property.png)
 
 This means that the TextBox will contain the word **Hello**.
 
@@ -40,7 +42,7 @@ All three methods remove the text from the TextBox.
 
 ### Screenshot
 
-![TextBox Control](Screenshots/TextBox.png)
+![Clearing a TextBox](screenshots/Clearing%20a%20TextBox.png)
 
 ---
 
@@ -68,6 +70,7 @@ string firstName;
 
 This creates a string variable called `firstName`.
 
+![Variable Declaration](screenshots/Variable%20Declaration.png)
 ---
 
 ## Data Types
@@ -93,7 +96,7 @@ A variable name:
 * Cannot contain spaces.
 * Cannot use C# keywords or reserved words.
 * Should have a meaningful name.
-
+![Variable Names](screenshots/Variable%20Names.png)
 Example:
 
 ```csharp
@@ -104,7 +107,7 @@ string studentName;
 
 ### Screenshot
 
-![Variable Declaration](Screenshots/variable_declaration.png)
+
 
 ---
 
@@ -119,7 +122,7 @@ string name = "Ahmed";
 ```
 
 Here, the variable `name` stores the text **Ahmed**.
-
+![String Variable](screenshots/String%20Variable.png)
 ---
 
 # String Concatenation
@@ -159,7 +162,7 @@ Strings can also be combined with numbers:
 
 ### Screenshot
 
-![String Concatenation](Screenshots/concatenation.png)
+![String Concatenation](screenshots/String%20Concatenation.png)
 
 ---
 
@@ -184,7 +187,7 @@ fullNameLabel.Text = fullname;
 
 ### Screenshot
 
-![String Variable Example](Screenshots/string_variable.png)
+
 
 ---
 
@@ -214,7 +217,7 @@ private void secondButton_Click(object sender, EventArgs e)
 ```
 
 This causes an error because `myName` is outside its scope.
-
+![Local Variable](screenshots/Local%20Variable.png)
 ---
 
 ## Scope and Lifetime
@@ -321,7 +324,7 @@ string lastName = "Khalaf",
 ```
 
 ---
-
+![Declaring Multiple Variables](screenshots/Declaring%20Multiple%20Variables.png)
 # 3.3 Numeric Data Types and Variables
 
 When a variable must store a number and participate in calculations, a **numeric data type** is used.
@@ -339,6 +342,7 @@ When a variable must store a number and participate in calculations, a **numeric
 # Numeric Literals
 
 A **numeric literal** is a number written directly in the program.
+![Numeric Literals](screenshots/Numeric%20Literals.png)
 
 Example:
 
@@ -385,6 +389,7 @@ int score = -25.5;
 ```
 
 ---
+![Assignment Compatibility for int](screenshots/Assignment%20Compatibility%20for%20int.png)
 
 # Assignment Compatibility for double
 
@@ -405,6 +410,7 @@ double sales = 6500.0m;
 ```
 
 ---
+![Assignment Compatibility for double](screenshots/Assignment%20Compatibility%20for%20double.png)
 
 # Assignment Compatibility for decimal
 
@@ -425,7 +431,7 @@ decimal sales = 6500.0;
 ```
 
 ---
-
+![Assignment Compatibility for decimal](screenshots/Assignment%20Compatibility%20for%20decimal.png)
 # Explicit Conversion with Cast Operators
 
 **Casting** means explicitly converting one data type into another.
@@ -486,8 +492,7 @@ A `var` variable must be initialized when it is declared.
 
 ### Screenshot
 
-![var Keyword](Screenshots/var_keyword.png)
-
+![The var Keyword](screenshots/the%20var%20Keyword.png)
 ---
 
 
